@@ -1,0 +1,133 @@
+/***********
+*****Base
+***********/
+
+body {
+  /*font-familyを指定
+  font-mamily: 'Noto Sans JP', sans-serif;
+  */
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/***********
+*****Layout
+***********/
+
+/* template
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+}
+
+.middle-wrapper {
+}
+
+.align-center {
+  text-align: center
+}
+
+*/
+
+
+/***********
+*****Module（汎用部品）
+***********/
+
+
+/*1-1. ヘッダモジュール*/
+
+.header {
+  display: flex;
+  background-color: skyblue;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__item {
+  text-align: center;
+  margin-left: 100px;
+  position: relative;
+}
+
+.nav__item+.nav__item::before {
+  content: '|';
+  position: absolute;
+  top: 30%;
+  left: -50px;
+  font-size: 10px;
+}
+
+.nav__item-name {
+  color: black;
+  font-size: 14px;
+}
+
+/*1-2. フッタモジュール */
+
+footer {
+  background-color: #333333;
+  height: 150px;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-nav {
+  padding-top: 30px;
+}
+
+.footer-nav__item {
+  display: inline;
+  margin: 0 20px;
+}
+
+.footer-nav__item-name {
+  color: white;
+}
+
+/* template
+
+.btn-normal {
+  display: inline-block;
+  width: 80px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  background: #D4004E;
+}
+*/
+
+
+/***********
+*****Module（個別指定）
+***********/
+
+
+
+/*
+**State
+*/
+
+/* template
+.btn-arrow:hover {
+  opacity: 0.7;
+}
+*/
+
+/*
+**Theme
+*/
