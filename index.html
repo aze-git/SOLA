@@ -1,69 +1,179 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>Title</title>
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="responsive.css">
-    <!--FontAwesome
-    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-    -->
-    <!--Font
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Title</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <!--Font
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
     -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  </head>
-  <body>
-    <div class="top-wrapper">
-      <div class="container">
-        <div class="header">
-          <h1 class="header__title"><a href="index.html"><img src="image/logo.png" alt="sample"></a></h1>
-          <nav class="nav">
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a class="nav__item-btn" href="about.html">
-                  <span class="nav__item-name">ABOUT</span><br>
-                </a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__item-btn" href="news.html">
-                  <span class="nav__item-name">NEWS</span><br>
-                </a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__item-btn" href="service.html">
-                  <span class="nav__item-name">SERVICE</span><br>
-                </a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__item-btn" href="contact.html">
-                  <span class="nav__item-name">CONTACT</span><br>
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="header">
+    <h1 class="header__title"><a href="index.html"><img class="header__logo" src="img/logo.png"></a></h1>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a class="nav__item-btn" href="about.html">
+            <span class="nav__item-page">お部屋</span><br>
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__item-btn" href="news.html">
+            <span class="nav__item-page">設備紹介</span><br>
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__item-btn" href="service.html">
+            <span class="nav__item-page">近隣スポット</span><br>
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__item-btn" href="contact.html">
+            <span class="nav__item-page">アクセス</span><br>
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__item-btn" href="contact.html">
+            <span class="nav__item-page">新着ニュース</span><br>
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__item-btn" href="contact.html">
+            <span class="nav__item-page">会社情報</span><br>
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__item-btn" href="contact.html">
+            <span class="nav__item-page">お問合せ</span><br>
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="" class="btn">
+            <span class="btn-text">ご予約はこちらから</span>
+          </a>
+        </li>
+      </ul>
+      <div class="nav-mobile__opener">
+        <i class="fas fa-bars except-close"></i>
+      </div>
+    </nav>
+  </div>
+  <div class="nav-mobile__wrapper">
+    <div class="nav-mobile except-close">
+      <div class="close__nav-mobile">
+        <i class="fas fa-times"></i>
+      </div>
+      <div class="nav-mobile__list align-center">
+        <ul class="nav-mobile__items">
+          <li class="nav-mobile__item">
+            <a class="nav-mobile__item-title">SOLA HOTEL</a>
+          </li>
+          <li class="nav-mobile__item">
+            <a href="#" class="nav-mobile__item-page">お部屋</a>
+          </li>
+          <li class="nav-mobile__item">
+            <a href="#" class="nav-mobile__item-page">設備紹介</a>
+          </li>
+          <li class="nav-mobile__item">
+            <a href="#" class="nav-mobile__item-page">近隣スポット</a>
+          </li>
+          <li class="nav-mobile__item">
+            <a href="#" class="nav-mobile__item-page">アクセス</a>
+          </li>
+          <li class="nav-mobile__item">
+            <a href="#" class="nav-mobile__item-page">新着ニュース</a>
+          </li>
+          <li class="nav-mobile__item">
+            <a href="#" class="nav-mobile__item-page">会社情報</a>
+          </li>
+          <li class="nav-mobile__item">
+            <a href="#" class="nav-mobile__item-page">お問合せ</a>
+          </li>
+
+          <li class="nav-mobile__item">
+            <a href="#" class="btn">
+              <span class="btn-text">ご予約はこちらから</span>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
-    <div class="middle-wrapper">
-      <div class="container">
-      </div>          
-    </div>
-    <footer>
-      <div class="container">
-        <div class="footer-nav">
-          <ul class="footer-nav__list">
-            <li class="footer-nav__item"><a class="footer-nav__item-name" href="#">ABOUT</a></li>
-            <li class="footer-nav__item"><a class="footer-nav__item-name" href="#">NEWS</a></li>
-            <li class="footer-nav__item"><a class="footer-nav__item-name" href="#">SERVICE</a></li>
-            <li class="footer-nav__item"><a class="footer-nav__item-name" href="#">CONTACT</a></li>
-          </ul>
+  </div>
+  <div class="top-wrapper">
+  </div>
+  <div class="middle-wrapper">
+    <div class="container">
+      <div class="home-news align-center">
+        <a class="home-news__title">新着ニュース</a>
+        <ul class="home-news__items">
+          <li class="home-news__item">
+            <a class="home-news__date">2019.00.00</a>
+            <a class="home-news__content">お知らせお知らせお知らせお知らせお知らせ</a>
+          </li>
+          <li class="home-news__item">
+            <a class="home-news__date">2019.00.00</a>
+            <a class="home-news__content">お知らせお知らせお知らせお知らせお知らせ</a>
+          </li>
+          <li class="home-news__item">
+            <a class="home-news__date">2019.00.00</a>
+            <a class="home-news__content">お知らせお知らせお知らせお知らせお知らせ</a>
+          </li>
+        </ul>
+      </div>
+      <div class="home-photos">
+        <div class="home-photos__item order1">
+          <img class="home-photos__photo" src="img/188928912.jpg">
         </div>
-        <p class="copyright">© Copyright Company</p>
-      </div>                   
-    </footer>
-    <script src="script.js"></script>
-  </body>
+        <div class="home-photos__text order2">
+          <p class="home-photos__title">テキストテキスト</p>
+          <p class="home-photos__description">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキス</p>
+        </div>
+        <div class="home-photos__text order4">
+          <p class="home-photos__title">テキストテキスト</p><br>
+          <p class="home-photos__description">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキス</p>
+        </div>
+        <div class="home-photos__item order3">
+          <img class="home-photos__photo" src="img/186916128.jpg">
+        </div>
+        <div class="home-photos__item order5">
+            <img class="home-photos__photo" src="img/c1.jpg">
+          </div>
+          <div class="home-photos__text order6">
+            <p class="home-photos__title">テキストテキスト</p>
+            <p class="home-photos__description">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキス</p>
+          </div>
+          <div class="home-photos__text order8">
+            <p class="home-photos__title">テキストテキスト</p><br>
+            <p class="home-photos__description">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキス</p>
+          </div>
+          <div class="home-photos__item order7">
+            <img class="home-photos__photo" src="img/188930732.jpg">
+          </div>  
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="footer-nav">
+        <ul class="footer-nav__list">
+          <li class="footer-nav__item"><a class="footer-nav__item-page" href="#">ABOUT</a></li>
+          <li class="footer-nav__item"><a class="footer-nav__item-page" href="#">NEWS</a></li>
+          <li class="footer-nav__item"><a class="footer-nav__item-page" href="#">SERVICE</a></li>
+          <li class="footer-nav__item"><a class="footer-nav__item-page" href="#">CONTACT</a></li>
+        </ul>
+      </div>
+      <p class="copyright">© Copyright Company</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
 </html>

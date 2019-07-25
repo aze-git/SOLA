@@ -1,9 +1,57 @@
 /*タブレット向けレイアウト*/
-@media screen and (max-width: 1000px) {
 
+@media screen and (max-width: 1000px) {
+    .header__logo {
+        width: 200px;
+    }
+    .nav__list {
+        display: none;
+    }
+    .nav-mobile__opener {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #FFB549;
+        font-size: 40px;
+    }
 }
 
 /*スマホ向けレイアウト*/
-@media screen and (max-width: 670px) {
 
+@media screen and (max-width: 670px) {
+    .home-news__title {
+        font-size: 16px;
+    }
+    .home-news__date, .home-news__content {
+        font-size: 12px;
+    }
+    .home-photos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .order1 {
+        order: 1;
+    }
+    .order2 {
+        order: 2;
+    }
+    .order3 {
+        order: 3;
+    }
+    .order4 {
+        order: 4;
+    }
+    .order5 {
+        order: 5;
+    }
+    .order6 {
+        order: 6;
+    }
+    .order7 {
+        order: 7;
+    }
+    .order8 {
+        order: 8;
+    }
 }
