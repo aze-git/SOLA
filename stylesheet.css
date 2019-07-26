@@ -4,7 +4,7 @@
 
 body {
   /*font-familyをあとで変える。*/
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family:  游明朝,"Yu Mincho",YuMincho, Meiryo, sans-serif;
   color: #000000;
 }
 
@@ -14,6 +14,16 @@ a {
 
 ul {
   list-style: none;
+}
+
+html {
+  /* ルートのフォントサイズを10pxに設定 */
+font-size: 62.5%;
+}
+
+body {
+/* ルートのフォントサイズを1.6em（16px）に設定 */
+font-size: 1.6em;
 }
 
 /***********
@@ -33,7 +43,7 @@ ul {
 }
 
 .middle-wrapper {
-  height: 1800px;
+  height: 2800px;
   background-image: url("img/bg.jpg");
   background-repeat: no-repeat;
   background-position: 50% 220px;
@@ -42,7 +52,6 @@ ul {
 .align-center {
   text-align: center
 }
-
 
 /***********
 *****Module（汎用部品）
@@ -73,7 +82,7 @@ ul {
 }
 
 .nav__item-page {
-  color: black;
+  color: #000000;
   font-size: 16px;
 }
 
@@ -88,6 +97,7 @@ ul {
   padding: 0 40px;
   font-size: 40px;
   cursor: pointer;
+  display: none;
 }
 
 .nav-mobile {
@@ -119,6 +129,8 @@ ul {
 .nav-mobile__item-title {
   font-size: 32px;
   color: #fff;
+  font-family:  Meiryo, sans-serif;
+;
 }
 
 .nav-mobile__item-page {
@@ -129,25 +141,25 @@ ul {
 /*1-3. フッタモジュール */
 
 footer {
-  background-color: #333333;
+  background-image: url("img/footer_img.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
   height: 150px;
+  padding: 40px 0;
+}
+
+.footer__hotel-name {
+  font-size: 3.0rem;
   color: #fff;
-  text-align: center;
+  font-family:  Meiryo, sans-serif;
 }
 
-.footer-nav {
-  padding-top: 30px;
+.footer__address {
+  font-size: 3.0rem;
+  color: #fff;
 }
 
-.footer-nav__item {
-  display: inline;
-  margin: 0 20px;
-}
-
-.footer-nav__item-name {
-  color: white;
-}
-
+/*1-3. ボタンモジュール */
 .btn {
   display: inline-block;
   width: 200px;
@@ -169,11 +181,11 @@ footer {
 
 /*ホーム画面*/
 .home-news {
-  padding: 60px 0 200px 0;
+  padding: 60px 0 120px 0;
 }
 
 .home-news__title {
-  font-size: 20px;
+  font-size: 2.0rem;
   margin-bottom: 20px;
 }
 
@@ -192,24 +204,29 @@ footer {
 }
 
 .home-photos__photo {
-  max-width: 500px;
-  margin-top: 30px;
+  max-width: 480px;
+  margin: 15px 5px 0 5px;
 }
 
 .home-photos__text {
-  max-width: 500px;
-  margin-top: 50px;
+  max-width: 480px;
+  margin: 50px 10px 0 5px;
 }
 
 .home-photos__title {
-  font-size: 30px;
+  font-size: 3.0rem;
   margin-bottom: 30px;
 }
 
 .home-photos__description {
-  font-size: 20px;
+  font-size: 2.0rem;
   line-height: 35px;
   margin: 0;
+}
+
+.home-map {
+  margin-top: 200px;
+  width: 100%;
 }
 
 
@@ -218,11 +235,9 @@ footer {
 **State
 */
 
-/* template
-.btn-arrow:hover {
+.btn:hover {
   opacity: 0.7;
 }
-*/
 
 /*
 **Theme

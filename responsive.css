@@ -1,12 +1,32 @@
 /*タブレット向けレイアウト*/
 
 @media screen and (max-width: 1000px) {
+
+    html {
+        /* ルートのフォントサイズを8pxに設定 */
+      font-size: 50.0%;
+      }
+      
+    .container {
+        max-width: 700px;
+    }
+
+    .middle-wrapper {
+        height: 1900px;
+        background-image: url("img/bg768.jpg");
+        background-repeat: no-repeat;
+        background-position: 50% 220px;
+        background-size: auto 1200px;
+      }
+
     .header__logo {
         width: 200px;
     }
+
     .nav__list {
         display: none;
     }
+
     .nav-mobile__opener {
         display: flex;
         align-items: center;
@@ -14,17 +34,63 @@
         color: #FFB549;
         font-size: 40px;
     }
+
+    .home-photos__photo {
+        max-width: 320px;
+      }
+      
+      .home-photos__text {
+        max-width: 320px;
+        margin-top: 20px; 
+      }
+
+      .home-photos__title {
+        margin-bottom: 10px;
+      }
+      
+      .home-photos__description {
+        line-height: 24px;
+        margin: 0;
+      }
+
+      .home-map {
+            margin-top: 150px;
+          height: 350px;
+      }
+
+      .footer__hotel-name {
+        margin-bottom: 30px;
+      }
+      
+      .footer__address {
+        line-height: 35px;
+        margin: 0;
+      }
+      
 }
 
 /*スマホ向けレイアウト*/
 
 @media screen and (max-width: 670px) {
-    .home-news__title {
-        font-size: 16px;
+
+    html {
+        /* ルートのフォントサイズを6pxに設定 */
+      font-size: 37.5%;
+      }
+
+      .container {
+        max-width: 550px;
     }
-    .home-news__date, .home-news__content {
-        font-size: 12px;
+
+    .middle-wrapper {
+        height: 2400px;
+        background-image: url("img/bg4142.jpg");
+        background-repeat: no-repeat;
+        background-position: 50% 220px;
+        background-size: auto 1600px;
     }
+
+
     .home-photos {
         display: flex;
         flex-direction: column;
