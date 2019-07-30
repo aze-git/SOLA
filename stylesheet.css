@@ -16,6 +16,10 @@ ul {
   list-style: none;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
 html {
   /* ルートのフォントサイズを10pxに設定 */
 font-size: 62.5%;
@@ -35,6 +39,11 @@ font-size: 1.6em;
   margin: 0 auto;
 }
 
+.container__room {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
 .top-wrapper {
   height: 700px;
   background-image: url("img/15309700.jpg");
@@ -42,7 +51,26 @@ font-size: 1.6em;
   background-position: 50% 0;
 }
 
-.middle-wrapper {
+.head-wrapper {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: flex;
+}
+
+.head-wrapper__title {
+  color: white;
+  font-size: 5.0rem;
+  line-height: 300px;
+}
+
+.head-wrapper__room {
+  background-image: url("img/thumbnail_room.jpg");
+  background-position: 50% 40%;
+}
+
+.middle-wrapper__home {
   height: 2800px;
   background-image: url("img/bg.jpg");
   background-repeat: no-repeat;
@@ -179,7 +207,7 @@ footer {
 *****Module（個別指定）
 ***********/
 
-/*ホーム画面*/
+/*Home画面*/
 .home-news {
   padding: 60px 0 120px 0;
 }
@@ -229,6 +257,71 @@ footer {
   width: 100%;
 }
 
+/*Room画面*/
+.rooms-table__room {
+  margin-top: 120px;
+}
+
+.rooms-table__row1 {
+  position: relative;
+}
+
+.rooms-table__row1-picture {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.rooms-table__row1-text {
+  position: absolute;
+  top: 0;
+  left: 55%;
+  height: auto;
+  width: 40%;
+}
+
+.rooms-table__text-title {
+  font-size: 3.0rem;
+  margin: 0;
+}
+
+.rooms-table__text-description {
+  font-size: 1.6rem;
+  margin-top: 1.0rem;
+}
+
+.rooms-table__row2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1%;
+}
+
+.rooms-table__row3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.rooms-table__row3-text {
+  width: 40%;
+  margin-left: 5%;
+}
+
+.rooms-table__picture-big {
+  height: auto;
+  max-width: 50%;
+}
+
+.rooms-table__picture-small-1 {
+  height: auto;
+  max-width: 24%;
+  padding-left: 1%;
+}
+
+.rooms-table__picture-small-2 {
+  height: auto;
+  max-width: 25%;
+}
 
 
 /*
