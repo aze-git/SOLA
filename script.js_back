@@ -1,0 +1,21 @@
+/////////////////////////
+//// ヘッダ マウスオーバー時に色を変える
+/////////////////////////
+
+function over(x) {
+  var elems = x.children;
+  elems[0].style.color = '#FFB549';
+}
+
+function leave(x) {
+  var elems = x.children;
+  elems[0].style.color = '#000000';
+}
+
+/////////////////////////
+//// ヘッダのハンバーガーメニューの開閉
+/////////////////////////
+
+document.getElementById("open").onclick = function() {
+  console.log("open");
+};

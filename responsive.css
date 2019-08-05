@@ -1,6 +1,6 @@
-/*タブレット向けレイアウト*/
+/*iPadの横を想定（pxの指定あり）*/
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1366px) {
 
     html {
         /* ルートのフォントサイズを8pxに設定 */
@@ -8,19 +8,11 @@
       }
       
     .container {
-        max-width: 700px;
+        max-width: 95%;
     }
 
-    .middle-wrapper {
-        height: 1900px;
-        background-image: url("img/bg768.jpg");
-        background-repeat: no-repeat;
-        background-position: 50% 220px;
-        background-size: auto 1200px;
-      }
-
     .header__logo {
-        width: 200px;
+        width: 20rem;
     }
 
     .nav__list {
@@ -35,15 +27,6 @@
         font-size: 40px;
     }
 
-    .home-photos__photo {
-        max-width: 320px;
-      }
-      
-      .home-photos__text {
-        max-width: 320px;
-        margin-top: 20px; 
-      }
-
       .home-photos__title {
         margin-bottom: 10px;
       }
@@ -54,7 +37,6 @@
       }
 
       .home-map {
-            margin-top: 150px;
           height: 350px;
       }
 
@@ -69,9 +51,33 @@
       
 }
 
-/*スマホ向けレイアウト*/
+/*調整用レイアウト*/
+@media screen and (max-width: 700px) {
 
-@media screen and (max-width: 670px) {
+    .rooms-table__room {
+        margin-top: 60px;
+    }
+
+    .rooms-table__row1-text {
+        left: 52%;
+        width: 47%;
+      }
+
+    .rooms-table__text-title {
+        font-size: 1.6rem;
+        line-height: 0rem;
+    }
+
+    .rooms-table__text-description {
+        font-size: 0.7rem;
+        margin-top: 0;
+    }
+}
+
+
+/*スマホ向けレイアウト（pxの指定あり）*/
+
+@media screen and (max-width: 414px) {
 
     html {
         /* ルートのフォントサイズを6pxに設定 */
@@ -96,6 +102,20 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .home-photos__item {
+        margin-bottom: 0;
+    }
+
+    .home-photos__text {
+        margin-top: 0;
+        margin-bottom: 5%;
+    }
+
+    .home-photos__title {
+        text-align: center;
+    }
+
     .order1 {
         order: 1;
     }
@@ -120,4 +140,22 @@
     .order8 {
         order: 8;
     }
+
+    .rooms-table__room {
+        margin-top: 40px;
+    }
+
+    .rooms-table__row1-text {
+        left: 51%;
+        width: 50%;
+    }
+
+    .rooms-table__text-title {
+        font-size: 1rem;
+    }
+
+    .rooms-table__text-description {
+        font-size: 10px;
+    }
+
 }

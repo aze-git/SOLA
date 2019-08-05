@@ -45,11 +45,19 @@ font-size: 1.6em;
 }
 
 .top-wrapper {
-  height: 700px;
-  background-image: url("img/15309700.jpg");
+  /* todo
+  width: 100%;
+  height: ;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-image: url("img/15309700.jpg");
   background-position: 50% 0;
+  */
 }
+
+.top-img {
+  width: 100%;
+ }
 
 .head-wrapper {
   width: 100%;
@@ -70,11 +78,25 @@ font-size: 1.6em;
   background-position: 50% 40%;
 }
 
-.middle-wrapper__home {
-  height: 2800px;
+.head-wrapper__facility {
+  background-image: url("img/thumbnail_facility.jpg");
+  background-position: 50% 40%;
+}
+
+.news-wrapper__home {
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.photos-wrapper__home {
   background-image: url("img/bg.jpg");
   background-repeat: no-repeat;
-  background-position: 50% 220px;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.map-wrapper__home {
+  margin: 80px 0;
 }
 
 .align-center {
@@ -125,6 +147,7 @@ font-size: 1.6em;
   padding: 0 40px;
   font-size: 40px;
   cursor: pointer;
+  color: #FFB549;
   display: none;
 }
 
@@ -139,15 +162,15 @@ font-size: 1.6em;
 
 .fa-times {
   position: absolute;
-  top: 40px;
-  right: 80px;
+  top: 10%;
+  right: 10%;
   cursor: pointer;
   color: #FFB549;
   font-size: 50px;
 }
 
 .nav-mobile__items {
-  padding-top: 80px;
+  padding: 80px 0 0 0;
 }
 
 .nav-mobile__item {
@@ -208,10 +231,6 @@ footer {
 ***********/
 
 /*Home画面*/
-.home-news {
-  padding: 60px 0 120px 0;
-}
-
 .home-news__title {
   font-size: 2.0rem;
   margin-bottom: 20px;
@@ -229,33 +248,35 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 100px 0;
 }
 
-.home-photos__photo {
-  max-width: 480px;
-  margin: 15px 5px 0 5px;
+.home-photos__item {
+  width: 50%;
+  margin-bottom: 30px;
 }
 
 .home-photos__text {
-  max-width: 480px;
-  margin: 50px 10px 0 5px;
+  width: 45%;
+  margin-top: 5%;
+}
+
+.home-photos__photo {
+  width: 100%;
+  height: auto;
 }
 
 .home-photos__title {
-  font-size: 3.0rem;
+  font-size: 2.8rem;
   margin-bottom: 30px;
 }
 
 .home-photos__description {
-  font-size: 2.0rem;
+  font-size: 1.8rem;
   line-height: 35px;
   margin: 0;
 }
 
-.home-map {
-  margin-top: 200px;
-  width: 100%;
-}
 
 /*Room画面*/
 .rooms-table__room {
