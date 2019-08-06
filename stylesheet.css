@@ -83,6 +83,31 @@ font-size: 1.6em;
   background-position: 50% 40%;
 }
 
+.head-wrapper__spot {
+  background-image: url("img/近隣スポット.jpg");
+  background-position: 50% 40%;
+}
+
+.head-wrapper__access {
+  background-image: url("img/thumbnail_access.jpg");
+  background-position: 50% 40%;
+}
+
+.head-wrapper__news {
+  background-image: url("img/thumbnail_news.jpg");
+  background-position: 50% 40%;
+}
+
+.head-wrapper__company {
+  background-image: url("img/会社.png");
+  background-position: 50% 40%;
+}
+
+.head-wrapper__inquiry {
+  background-image: url("img/187271663.jpg");
+  background-position: 50% 40%;
+}
+
 .news-wrapper__home {
   margin-top: 60px;
   margin-bottom: 50px;
@@ -97,6 +122,10 @@ font-size: 1.6em;
 
 .map-wrapper__home {
   margin: 80px 0;
+}
+
+.middle-wrapper__facility {
+  margin-bottom: 10rem;
 }
 
 .align-center {
@@ -158,6 +187,7 @@ font-size: 1.6em;
   width: 100%;
   height: 600px;
   display: none;
+  z-index: 10;
 }
 
 .fa-times {
@@ -344,6 +374,55 @@ footer {
   max-width: 25%;
 }
 
+/*Facility画面*/
+.facilities-table__facility {
+  margin-top: 10rem; 
+}
+
+.facilities-table__title {
+  font-size: 2.4rem;
+}
+
+.facilities-table__row1 {
+  margin-bottom: 1.0rem;
+}
+
+.facilities-table__row2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.facilities-table__row3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.facilities-table__picture-big {
+  width: 100%;
+}
+
+.facilities-table__picture-middle {
+  width: 49.5%;
+  margin-top: 1.0rem;
+}
+
+.facilities-table__picture-small {
+  width: 32.8%;
+  margin-top: 1.0rem;
+}
+
+.facilities-table__text-container {
+  width: 90%;
+  margin: 5rem auto;
+}
+
+.facilities-table__text {
+  font-size: 1.6rem;
+}
+
+.facilities-table__top-margin {
+  margin-top: 4rem;
+}
 
 /*
 **State

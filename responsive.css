@@ -72,6 +72,11 @@
         font-size: 0.7rem;
         margin-top: 0;
     }
+
+    .facilities-table__text {
+        font-size: 1.0rem;
+    }
+
 }
 
 
@@ -85,7 +90,7 @@
       }
 
       .container {
-        max-width: 550px;
+        max-width: 350px;
     }
 
     .middle-wrapper {
