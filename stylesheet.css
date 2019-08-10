@@ -44,6 +44,11 @@ font-size: 1.6em;
   margin: 0 auto;
 }
 
+.container__spot {
+  max-width: 1094px;
+  margin: 0 auto;
+}
+
 .top-wrapper {
   /* todo
   width: 100%;
@@ -422,6 +427,61 @@ footer {
 
 .facilities-table__top-margin {
   margin-top: 4rem;
+}
+
+/*Spot画面*/
+.spot-table__text-font {
+  font-size: 2.0rem;
+}
+
+.spot-table__row1 {
+  position: relative;
+  width: 100%;
+  margin-top: 10rem;
+}
+
+.spot-table__row1-photo {
+  width: 70%;
+  padding-right: 10%;
+}
+
+.spot-table__row1-text {
+  top: 20%;
+  right: 10%;
+  position: absolute;
+}
+
+.spot-table__row2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+}
+
+.spot-table__row2-photo {
+  width: 100%;
+}
+
+.spot-table__row3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+}
+
+.spot-table__row3-item {
+  width: 20%;
+}
+
+.spot-table__row3-photo {
+  width: 90%;
+}
+
+.spot-map {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.spot-map__title {
+  font-size: 3.6rem;
 }
 
 /*
